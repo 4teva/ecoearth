@@ -10,6 +10,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: rgb(233, 230, 225);
 }
 
 .carousel-item {
@@ -36,10 +37,10 @@ body {
 }
 
 .nav-item {
-    margin-right: 50px;
+    margin-right: 20px;
     text-decoration: none;
     color: rgb(76, 76, 76);
-    font-size: x-large;
+    font-size: larger;
 }
 
 .pointer {
@@ -50,8 +51,17 @@ body {
     overflow-x: hidden;
 }
 
+.fp {
+    font-weight: 600!important;
+}
+
 .navbar {
     background-color: rgb(233, 230, 225);
+}
+
+footer {
+    background-color: rgb(233, 230, 225);
+    padding-top: 0px;
 }
 
 figure {
@@ -71,8 +81,11 @@ figure {
 }
 
 .hidden {
-    background-color: lightgray;
-    border: none;
+    background-color: rgb(233, 230, 225);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -82,6 +95,7 @@ figure {
     margin: 4px 2px;
     cursor: pointer;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .fixed {
